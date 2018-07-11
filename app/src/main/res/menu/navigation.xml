@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_papers"
+        android:icon="@drawable/eventmap"
+        android:title="Eventmap" />
+    <item
+        android:id="@+id/navigation_people"
+        android:icon="@drawable/peoplelogo"
+        android:title="People" />
+    <item
+        android:id="@+id/navigation_chat"
+        android:icon="@drawable/chatlogo"
+        android:title="Chat" />
+    <item
+        android:id="@+id/navigation_more"
+        android:icon="@android:drawable/ic_dialog_dialer"
+        android:title="More" />
+</menu>

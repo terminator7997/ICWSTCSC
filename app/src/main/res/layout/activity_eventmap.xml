@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:id="@+id/scroll"
+    android:layout_above="@+id/navigation"
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/linearmain"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:animateLayoutChanges="true"
+    android:orientation="vertical" >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv"
+        android:text="28th June 2018"
+        android:textColor="@android:color/black"
+        android:textSize="30dp"
+        android:textAlignment="center"
+        android:layout_alignParentTop="true"/>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/tv"
+        android:layout_alignEnd="@+id/iv1"
+        android:src="@drawable/ic_keyboard_arrow_down_black_24dp" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_below="@id/tv"
+        android:background="@android:color/black" />
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+        android:layout_margin="10dp"
+        android:id="@+id/iv1"
+        android:layout_below="@id/tv"
+        android:scaleType="fitXY"
+        android:src="@drawable/t281" />
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+        android:layout_margin="10dp"
+        android:layout_below="@id/iv1"
+        android:id="@+id/iv2"
+        android:scaleType="fitXY"
+        android:src="@drawable/t282" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv2"
+        android:textColor="@android:color/black"
+        android:text="29th June 2018"
+        android:textSize="30dp"
+        android:layout_below="@id/iv2"
+        android:textAlignment="center"
+        />
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/tv2"
+        android:layout_alignEnd="@+id/iv3"
+        android:src="@drawable/ic_keyboard_arrow_down_black_24dp" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_below="@id/tv2"
+        android:background="@android:color/black" />
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+        android:layout_margin="10dp"
+        android:layout_below="@id/tv2"
+        android:id="@+id/iv3"
+        android:scaleType="fitXY"
+        android:src="@drawable/t291" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+        android:layout_margin="10dp"
+        android:layout_below="@id/iv3"
+        android:id="@+id/iv4"
+        android:scaleType="fitXY"
+        android:src="@drawable/t292" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv3"
+        android:textColor="@android:color/black"
+        android:text="30th June 2018"
+        android:textSize="30dp"
+        android:layout_below="@id/iv4"
+        android:textAlignment="center"
+        />
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/tv3"
+        android:layout_alignEnd="@+id/iv5"
+        android:src="@drawable/ic_keyboard_arrow_down_black_24dp" />
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_below="@id/tv3"
+        android:background="@android:color/black" />
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+        android:layout_margin="10dp"
+        android:layout_below="@id/tv3"
+        android:id="@+id/iv5"
+        android:scaleType="fitXY"
+        android:src="@drawable/t30" />
+</RelativeLayout>
+</ScrollView>

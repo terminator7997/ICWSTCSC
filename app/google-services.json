@@ -1,0 +1,104 @@
+{
+  "project_info": {
+    "project_number": "1085868135409",
+    "firebase_url": "https://bvm-chat.firebaseio.com",
+    "project_id": "bvm-chat",
+    "storage_bucket": "bvm-chat.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1085868135409:android:ac3a11c11934dc78",
+        "android_client_info": {
+          "package_name": "com.bvm.icwstcsc"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1085868135409-sn0tt2l6v8rliq5sgonq6qj7cm1iqn9a.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAyqHhMBrrw_rTiqWjFvPSd0OP2HPH5OCQ"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1085868135409:android:c79e6daf76fc581b",
+        "android_client_info": {
+          "package_name": "com.example.rahul.icwstcsc"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1085868135409-sn0tt2l6v8rliq5sgonq6qj7cm1iqn9a.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAyqHhMBrrw_rTiqWjFvPSd0OP2HPH5OCQ"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1085868135409:android:9053c7865dc2cc7a",
+        "android_client_info": {
+          "package_name": "in.bvm.college.icwstcsc"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1085868135409-sn0tt2l6v8rliq5sgonq6qj7cm1iqn9a.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAyqHhMBrrw_rTiqWjFvPSd0OP2HPH5OCQ"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
